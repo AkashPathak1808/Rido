@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./ride-with-us.component.css']
 })
 export class RideWithUsComponent {
-
+ imagepath="assets/ride-with-us-images/City driver-rafiki 1.svg";
 }

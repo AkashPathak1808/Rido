@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Inter&family=Poppins:wght@300&family=Roboto:wght@300&display=swap");
+
+.bckground {
+  background-color: #63abf9;
+}
+.text {
+  width: 646px;
+  height: 198px;
+  color: #fff;
+  font-size: 3.5rem;
+  margin-top: 12%;
+  font-family: "Comfortaa";
+}
+
+ button {
+
+
+
+  color: #000;
+  font-family: Comfortaa;
+  font-size: 1.8rem;
+  text-align: center;
+ background-color: white;
+  padding: 3% 12%;
+  border-radius: 50px 50px 50px 0px;
+}
