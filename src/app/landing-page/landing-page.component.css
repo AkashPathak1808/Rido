@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
+* {
+    font-family: Comfortaa;
+}
+
+.landingFS {
+    background-color: #63ABF9;
+    height: 550px;
+}
+
+.fsImg {
+    margin: 2% 0;
+}
+
+.fsText {
+    color: white;
+    font-family: Comfortaa;
+    font-size: 3.5rem;   
+    line-height: normal;
+    margin: 8% 0;
+}
+
+.fsText span {
+    color: black;
+}
+
+.btn {
+    background-color: white;
+    font-size: 1.5rem;
+    padding: 3% 12%;
+    border-radius: 50px 50px 50px 0px;
+}
+
+.landingSS {
+    background-color: #8817EE;
+}
+
+.ssImg {
+    width: 500px;
+    margin: 5% 0;
+}
+
+.ssText {
+    color: white;
+    margin: 8% 0;
+}
+
+.ssText h3 {
+    font-size: 3rem;
+}
