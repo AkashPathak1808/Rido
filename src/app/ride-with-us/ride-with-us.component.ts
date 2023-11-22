@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class RideWithUsComponent {
  imagepath="assets/ride-with-us-images/City driver-rafiki 1.svg";
+ imagepathh="assets/ride-with-us-images/12704384_5030023 1.svg";
 }
