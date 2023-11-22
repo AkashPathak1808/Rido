@@ -16,7 +16,7 @@
 .fsText {
     color: white;
     font-family: Comfortaa;
-    font-size: 3.5rem;   
+    font-size: 3.5rem;
     line-height: normal;
     margin: 8% 0;
 }
@@ -48,4 +48,26 @@
 
 .ssText h3 {
     font-size: 3rem;
+}
+
+.ssTextSL {
+    margin: 4% 15%;
+    font-size: 1rem;
+    line-height: normal;
+}
+
+.ssTextTL {
+    margin: 5% 20%;
+    font-size: 0.9rem;
+    line-height: normal;
+}
+
+.ssTextFoL {
+    margin: 5% 20%;
+    font-size: 1.3rem;
+    line-height: normal;
+}
+
+.ic {
+    font-size: 2rem;
 }
