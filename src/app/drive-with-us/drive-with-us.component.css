@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap");
+
+* {
+  font-family: Comfortaa;
+}
+/* Driver section */
+.driver {
+  background-color: #63abf9;
+  height: 550px;
+}
+
+.driverImg {
+  margin: 4% 0;
+}
+
+.driverTxt p {
+  color: white;
+  font-size: 3.5rem;
+  margin: 10.5% 0;
+  line-height: normal;
+  text-align: center;
+}
+
+.driverTxt span {
+  color: black;
+}
+
+.driverBtn {
+  font-size: 1.8rem;
+  font-weight: 500;
+  background-color: white;
+  padding: 3% 12%;
+  margin: 0 auto;
+  border-radius: 50px 50px 50px 0px;
+}
+
+.EllipseImg {
+  position: absolute;
+  top: 61%;
+  left: 192vh;
+}
+
+/* Document Section */
+
+.modernLife {
+  background-color: #8817ee;
+}
+
+.modernLifeImg {
+  width: 35rem;
+  height: 40rem;
+}
+
+.arrow{
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 900;
+ 
+}
+
+.docLine p{
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-left: 8%;
+}
