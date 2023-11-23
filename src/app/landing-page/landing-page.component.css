@@ -4,21 +4,19 @@
     font-family: Comfortaa;
 }
 
-.landingFS {
+.landingFS, .landingTS {
     background-color: #63ABF9;
-    height: 550px;
+    color: white;
 }
 
 .fsImg {
-    margin: 2% 0;
+    margin: 4% 0 13%;
 }
 
 .fsText {
-    color: white;
-    font-family: Comfortaa;
     font-size: 3.5rem;
     line-height: normal;
-    margin: 8% 0;
+    margin: 10% 0;
 }
 
 .fsText span {
@@ -37,13 +35,13 @@
 }
 
 .ssImg {
-    width: 500px;
-    margin: 5% 0;
+    /* width: 550px; */
+    margin: 7% 0 13%;
 }
 
 .ssText {
     color: white;
-    margin: 8% 0;
+    margin: 12% 0;
 }
 
 .ssText h3 {
@@ -51,14 +49,14 @@
 }
 
 .ssTextSL {
-    margin: 4% 15%;
-    font-size: 1rem;
+    margin: 5% 15%;
+    font-size: 1.3rem;
     line-height: normal;
 }
 
 .ssTextTL {
-    margin: 5% 20%;
-    font-size: 0.9rem;
+    margin: 7% 20%;
+    font-size: 1.1rem;
     line-height: normal;
 }
 
@@ -70,4 +68,30 @@
 
 .ic {
     font-size: 2rem;
+}
+
+.tsImg {
+    /* width: 550px; */
+    margin: 5% 0;
+}
+
+.tsText h3{
+    font-size: 3rem;
+}
+
+.tsHText span {
+    color: black;
+}
+
+.tsText {
+    margin: 10% 0;
+}
+
+.tsTextPara {
+    font-size: 1.3rem;
+    margin: 2% 20%;
+}
+
+.tsTextPara div {
+    padding: 2% 0;
 }
