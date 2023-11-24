@@ -2,23 +2,21 @@
 
 * {
     font-family: Comfortaa;
+    color: white;
+    line-height: normal;
 }
 
-.landingFS {
+.landingFS, .landingTS {
     background-color: #63ABF9;
-    height: 550px;
 }
 
 .fsImg {
-    margin: 2% 0;
+    margin: 4% 0 13%;
 }
 
 .fsText {
-    color: white;
-    font-family: Comfortaa;
-    font-size: 3.5rem;   
-    line-height: normal;
-    margin: 8% 0;
+    font-size: 3.5rem;
+    margin: 10% 0;
 }
 
 .fsText span {
@@ -27,25 +25,130 @@
 
 .btn {
     background-color: white;
+    color: black;
     font-size: 1.5rem;
     padding: 3% 12%;
     border-radius: 50px 50px 50px 0px;
 }
 
-.landingSS {
+.landingSS, .landingFoS {
     background-color: #8817EE;
 }
 
 .ssImg {
-    width: 500px;
-    margin: 5% 0;
+    /* width: 550px; */
+    margin: 7% 0 13%;
 }
 
 .ssText {
-    color: white;
-    margin: 8% 0;
+    margin: 12% 0;
 }
 
 .ssText h3 {
     font-size: 3rem;
+}
+
+.ssTextSL {
+    margin: 5% 15%;
+    font-size: 1.3rem;
+}
+
+.ssTextTL {
+    margin: 7% 20%;
+    font-size: 1.1rem;
+}
+
+.ssTextFoL {
+    margin: 5% 20%;
+    font-size: 1.3rem;
+}
+
+.ic {
+    font-size: 2rem;
+}
+
+.tsImg {
+    /* width: 550px; */
+    margin: 5% 0;
+}
+
+.tsText h3 {
+    font-size: 3rem;
+}
+
+.tsHText span {
+    color: black;
+}
+
+.tsText {
+    margin: 10% 0;
+}
+
+.tsTextPara {
+    font-size: 1.3rem;
+    margin: 2% 20%;
+}
+
+.tsTextPara div {
+    padding: 2% 0;
+}
+
+.fosImg {
+    margin: 2% 0 8%;
+}
+
+.fosText {
+    margin: 15% 0;
+}
+
+.fosText h3 {
+    font-size: 3rem;
+}
+
+.fosHText span {
+    color: black;
+}
+
+.formSelect {
+    margin: 0 18%;
+    position: relative;
+}
+
+input {
+    border-radius: 20px;
+    background: rgba(217, 217, 217, 0.60);
+    border: 0px;
+}
+
+.rideBtn {
+    border-radius: 20px;
+    background: #D9D9D9;
+    border: 0px;
+    font-size: 1rem;
+}
+
+.lineImg {
+    /* margin: -30% 0 -25% -85%; */
+    position: absolute;
+    top: 24%;
+    right: 92%;
+}
+
+.vector {
+    /* margin: -25% -80% 0 0; */
+    position: absolute;
+    top: 19%;
+    left: 87%;
+}
+
+.eclipse{
+    position: absolute;
+    top: 19%;
+    right: 90%;
+}
+
+.rectangle {
+    position: absolute;
+    top: 52%;
+    right: 90%;
 }

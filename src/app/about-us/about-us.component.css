@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+.con1 {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color:#63ABF9;
+}
+
+.ride {
+    flex: 1;
+}
+
+.ride h2 {
+    margin: 0 auto;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0;
+    font-size: 3.5rem;
+    line-height: normal;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+
+.ride h3 {
+    margin: 7% auto;
+    padding: 3.5% 10%;
+    border-radius: 50px 50px 50px 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000000;
+    background-color:whitesmoke;
+    width: fit-content;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.img1 {
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+}
+
+/* .img2 {
+    position: absolute;
+    top:85%;
+    left: 204.7vh;
+    
+} */
+
+.con2 {
+    display: flex;
+    padding: 10px 20px;
+    background-color:#8817EE;
+}
+
+.img3 {
+    max-width: 100%;
+    height: auto;
+    margin-left: 8%;
+}
+
+.ride2 {
+    flex: 1;
+}
+
+.ride2 h1 {
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 10%;
+    padding: auto 10rem;
+    font-size: 3.5rem;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+
+.ride2 p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 1rem 14rem;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+/* .img4 {
+    position: absolute;
+    top:160vh;
+} */
+
+.con3 {
+    display: flex;
+    align-items: center; 
+    background-color: #63ABF9;
+}
+  
+.ride3 {
+  flex: 1; 
+  padding: 5rem;
+}
+  
+.img5 {
+ padding: 2rem 5rem;
+}
+
+.heading {
+  text-align: center;
+  font-size: 2.5rem;
+  align-items: center;
+  color: #FFFFFF;
+  font-weight: bold;
+  margin-right: 16rem;
+  font-family: 'Comfortaa', sans-serif;
+}
+
+span{
+    color: #000000;
+}
+  
+.ride3 .safty {
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 1.5;
+  padding: 1.5rem 4rem;
+  font-family: 'Comfortaa', sans-serif;
+}
