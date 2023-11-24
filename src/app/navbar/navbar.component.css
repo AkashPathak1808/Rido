@@ -22,6 +22,10 @@
     margin: 0 10%;
 }
 
+span.ac {
+    color: black;
+}
+
 h3 {
     text-align: center;
     font-family: Comfortaa;
@@ -40,6 +44,6 @@ h6 {
     line-height: normal;
 }
 
-.dot {
-    background-color: white;
-}
+/* .dot {
+    font-size: 5rem;    
+} */
