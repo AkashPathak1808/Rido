@@ -8,6 +8,10 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
 import { RideWithUsComponent } from './ride-with-us/ride-with-us.component';
 import { DriveWithUsComponent } from './drive-with-us/drive-with-us.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { RidesComponent } from './rides/rides.component';
+import { HourlyRentalsComponent } from './hourly-rentals/hourly-rentals.component';
+import { AirportServiceComponent } from './airport-service/airport-service.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,7 +19,10 @@ import { AboutUsComponent } from './about-us/about-us.component';
     LandingPageComponent,
     RideWithUsComponent,
     DriveWithUsComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    RidesComponent,
+    HourlyRentalsComponent,
+    AirportServiceComponent
   ],
   imports: [
     BrowserModule,
