@@ -3,20 +3,17 @@
 * {
   font-family: Comfortaa;
 }
+
 /* Driver section */
 .driver {
   background-color: #63abf9;
-  height: 550px;
-}
-
-.driverImg {
-  margin: 4% 0;
+  padding: 6% 0;
 }
 
 .driverTxt p {
   color: white;
-  font-size: 3.5rem;
-  margin: 10.5% 0;
+  font-size: 3rem;
+  margin: 8% 0;
   line-height: normal;
   text-align: center;
 }
@@ -34,33 +31,141 @@
   border-radius: 50px 50px 50px 0px;
 }
 
-.EllipseImg {
-  position: absolute;
-  top: 61%;
-  left: 192vh;
-}
-
 /* Document Section */
-
 .modernLife {
   background-color: #8817ee;
+  padding: 6% 0;
 }
 
-.modernLifeImg {
-  width: 35rem;
-  height: 40rem;
-}
-
-.arrow{
+.arrow {
   color: white;
   font-size: 1.2rem;
   font-weight: 900;
- 
 }
 
-.docLine p{
+.docLine p {
   color: white;
   font-size: 1.2rem;
   font-weight: 500;
   margin-left: 8%;
+}
+
+.icons {
+  
+  background-color: white;
+  margin: 3% 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  
+}
+
+.icons p{
+  text-align: center;
+}
+
+.carIcon1 {
+  height: 110px;
+  width: 110px;
+}
+
+.feature {
+  background-color: #63abf9;
+  padding: 6% 0;
+}
+
+.feature h1 {
+  color: white;
+  line-height: normal;
+  font-size: 3rem;
+}
+
+/* Covid Section  */
+.covidSection {
+  background-color: #8817ee;
+  padding-bottom: 3rem;
+}
+
+.covidSection h1 {
+  padding: 6% 0 0;
+  color: white;
+  line-height: normal;
+  font-size: 3rem;
+  width: 35%;
+  margin: 0 auto;
+}
+
+.covidRow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.syring {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 150px;
+  background-color: #d9d9d9;
+  border-radius: 100%;
+}
+
+.covidImage {
+  height: 85px;
+  width: 85px;
+}
+
+.firstRow {
+  margin: 5% 0;
+}
+
+.covidRow figcaption {
+  margin-top: 3%;
+  color: white;
+  width: 12.5rem;
+}
+
+.border {
+  background: #d9d9d9;
+  height: 60px;
+}
+
+@media screen and (max-width: 991px) {
+  .driverTxt p {
+    font-size: 2rem;
+  }
+
+  .driverImg {
+    margin-top: 8%;
+    width: 100%;
+  }
+
+  .driverBtn {
+    font-size: 1.2rem;
+  }
+
+  .arrow {
+    font-size: 1rem;
+  }
+
+  .docLine p {
+    font-size: 1rem;
+  }
+
+  .feature h1 {
+    font-size: 2rem;
+  }
+
+  .covidSection h1 {
+    width: 45%;
+    font-size: 2rem;
+  }
+
+  .modernLifeImg {
+    margin-top: 30%;
+  }
 }
