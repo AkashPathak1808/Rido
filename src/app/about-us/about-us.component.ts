@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AboutUsComponent {
 
+  imagepath="assets/aboutUsImg/image1.svg";;
+  imagepath1="assets/aboutUsImg/image2.svg";
+  imagepath3="assets/aboutUsImg/image4.png";
 }
