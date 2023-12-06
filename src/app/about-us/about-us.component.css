@@ -4,6 +4,8 @@
     font-family: 'Comfortaa', sans-serif;
     font-weight: 700;
     line-height: normal;
+    margin: 0;
+    padding: 0;
 }
 
 /* part-1 */
@@ -19,14 +21,12 @@
 
 
 .ride h3 {
-    margin: 7% auto;
     padding: 3.5% 10%;
     border-radius: 50px 50px 50px 0;
     font-size: 1.5rem;
-    font-weight: bold;
     color: #000000;
     background-color: whitesmoke;
-    width: fit-content;
+    margin: 4% 15%;
 }
 
 .img1 {
@@ -42,8 +42,6 @@
 }
 
 .img3 {
-    max-width: 100%;
-    height: auto;
     margin: 10% 10%;
 }
 
@@ -55,7 +53,7 @@
 .ride2 h1 {
     color: #FFFFFF;
     text-align: center;
-    margin: 6% 2%;
+    margin: 10% 2%;
     font-size: 3em;
 }
 
@@ -209,6 +207,9 @@ button {
         font-size: 2.5rem;
     }
 
+    .ride2 {
+        margin: 5% 3%;
+    }
 
     .ride h3 {
         font-size: 1rem;
@@ -216,6 +217,7 @@ button {
 
     .ride2 h1 {
         font-size: 2rem;
+        margin: 0% 2% 8%;
     }
 
 
