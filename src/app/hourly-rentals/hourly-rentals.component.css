@@ -28,9 +28,9 @@
     padding: 2% 10%;
 }
 
-/* .ftsImg {
+.ftsImg {
     margin: -8% 0 2%;
-} */
+}
 
 @media screen and (max-width:991px) {    
     .ftsText{
@@ -40,5 +40,9 @@
 
     .icnPara {
         font-size: 0.8rem;
+    }
+
+    .ftsImg {
+        margin: -5% 0 2%;
     }
 }

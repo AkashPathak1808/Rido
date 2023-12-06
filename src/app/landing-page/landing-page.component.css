@@ -20,6 +20,8 @@
 .fsText {
     font-size: 3.5rem;
     margin: 10% 0 0;
+    transition-property: opacity, left;
+    transition-duration: 2s, 4s;
 }
 
 .fsText span {
@@ -255,7 +257,7 @@ a.act {
         margin: 0 0 10%;
     }
 
-    .fosImg img{
+    .fosImg img {
         width: 350px;
         height: 350px;
     }
