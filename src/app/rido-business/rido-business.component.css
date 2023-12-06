@@ -9,11 +9,11 @@
   background-color: #63abf9;
   padding: 6% 0;
 }
-
+           
 .driverTxt p {
   color: white;
   font-size: 3rem;
-  margin: 8% 0;
+  margin: 7% 0;
   line-height: normal;
   text-align: center;
 }
@@ -119,6 +119,10 @@
   font-size: 3rem;
 }
 
+.feature span{
+ color: black;
+}
+
 /* Covid Section  */
 .covidSection {
   background-color: #8817ee;
@@ -139,6 +143,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+ 
 }
 
 .syring {
@@ -265,8 +270,11 @@
 }
 
 @media screen and (max-width: 550px) {
-  .driverTxt p {
-    padding: 0 2%;
+
+
+  .feature h1{
+    margin-top: 7%;
+    padding: 0 3%;
   }
 
   .modernLife {
@@ -317,7 +325,7 @@
     margin-top: 10%;
   }
 
-  .first {
+  .row{
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -325,3 +333,9 @@
     align-items: center;
   }
 }
+
+/* @media screen and (max-width: 767px) {
+   .driverTxt p{
+     padding: 0 5%;
+   }
+} */

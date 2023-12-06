@@ -11,6 +11,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { RidesComponent } from './rides/rides.component';
 import { HourlyRentalsComponent } from './hourly-rentals/hourly-rentals.component';
 import { AirportServiceComponent } from './airport-service/airport-service.component';
+import { RidoBusinessComponent } from './rido-business/rido-business.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { AirportServiceComponent } from './airport-service/airport-service.compo
     AboutUsComponent,
     RidesComponent,
     HourlyRentalsComponent,
-    AirportServiceComponent
+    AirportServiceComponent,
+    RidoBusinessComponent
   ],
   imports: [
     BrowserModule,
