@@ -12,6 +12,9 @@ import { RidesComponent } from './rides/rides.component';
 import { HourlyRentalsComponent } from './hourly-rentals/hourly-rentals.component';
 import { AirportServiceComponent } from './airport-service/airport-service.component';
 import { RidoBusinessComponent } from './rido-business/rido-business.component';
+import { FooterComponent } from './footer/footer.component';
+import { TermsandconditionsComponent } from './termsandconditions/termsandconditions.component';
+import { ContactusComponent } from './contactus/contactus.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { RidoBusinessComponent } from './rido-business/rido-business.component';
     RidesComponent,
     HourlyRentalsComponent,
     AirportServiceComponent,
-    RidoBusinessComponent
+    RidoBusinessComponent,
+    FooterComponent,
+    TermsandconditionsComponent,
+    ContactusComponent
   ],
   imports: [
     BrowserModule,

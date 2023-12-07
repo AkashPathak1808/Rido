@@ -1,0 +1,39 @@
+* {
+    font-family: Comfortaa;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 0;
+}
+
+.tc {
+    background-color: #8817EE;
+}
+
+.header h1 {
+    font-size: 3rem;
+}
+
+.para p {
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 35px;
+    letter-spacing: 0.9px;
+    padding: 0 2% 5%;
+}
+
+@media screen and (max-width:992px){
+    .header h1 {
+        font-size: 2rem;
+    }
+    
+    .para p {
+        font-size: 1.1rem;
+    }
+
+    h5{
+        font-size: 1.3rem;
+        margin: 2% 0;
+    }
+}
