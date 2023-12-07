@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Jaldi&display=swap');
+
+* {
+    font-family: Comfortaa;
+    color: white;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 700;
+}
+
+.contactUsFS {
+    background-color: #63abf9;
+}
+
+.fsImg {
+    margin: 4% 0;
+}
+
+.fsText {
+    font-size: 3.5rem;
+    margin: 14% 0 0;
+    transition-property: opacity, left;
+    transition-duration: 2s, 4s;
+}
+
+.btn {
+    background-color: white;
+    color: black;
+    font-size: 1.5rem;
+    padding: 3% 12%;
+    border-radius: 50px 50px 50px 0px;
+}
+
+.contactUsSS {
+    background-color: #8817EE;
+}
+
+.review-form {
+    margin: 10% 0;
+    background-color: #fff;
+    padding: 5%;
+    border-radius: 13px;
+    width: 500px;
+}
+
+.review-h2 {
+    text-align: center;
+    color: #1e98e9;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #000000;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 4%;
+    border: 1px solid #000;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.submitBtn {
+    border: 1px solid #000;
+    background-color: #8817EE;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 2% 10%;
+    float: right;
+    font-family: Jaldi;
+}
+
+.review-text {
+    color: #fff;
+    margin: 1rem 7rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.experience-text {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.contactSSImg img {
+    height: 400px;
+    width: 400px;
+    margin: -45% 0 0 13%;
+}
+
+.ecl1 {
+    width: 50px;
+    height: 100px;
+    border-radius: 12rem 0 0 12rem;
+    background-color: #d9d9d9;
+    float: right;
+    margin: -3% 0;
+}
+
+@media screen and (max-width: 1200px) {
+    .contactSSImg img {
+        margin: -50% 0 0 6%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .fsText {
+        font-size: 2.5rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+    }
+
+    .review-form {
+        width: 320px;
+    }
+
+    .contactSSImg img {
+        margin: -60% 0 0 1%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contactSSImg img {
+        margin: -80% 0 0 -16%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contactSSImg img {
+        margin: 0;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .ecl1 {
+        margin: -8% 0;
+    }
+}

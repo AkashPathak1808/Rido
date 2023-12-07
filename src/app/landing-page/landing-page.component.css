@@ -209,7 +209,7 @@ a.act {
   }
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 992px) {
   .fsText {
     font-size: 2.5rem;
   }
@@ -260,7 +260,7 @@ a.act {
   }
 
   .fosImg img {
-    width: 350px;
+    width: 320px;
     height: 350px;
   }
 }

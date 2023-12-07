@@ -51,22 +51,41 @@ footer {
     padding: 2% 0;
 }
 
-.link a{
+.link a {
     text-decoration: none;
+}
+
+.eclImg {
+    position: absolute;
+    right: 0;
+    /* bottom: -5%; */
+    margin-top: -70px;
+
+}
+
+.ecli {
+    height: 70px;
+    width: 70px;
 }
 
 @media screen and (max-width: 992px) {
     .head h1 {
         font-size: 2rem;
+        margin: 8% 0;
     }
 
     .linkHead {
         font-size: 1.2rem;
     }
-    
+
     .link {
         font-size: 1rem;
         padding: 1% 0;
+    }
+
+    .ecli {
+        float: right;
+        margin-top: -7.5%;
     }
 }
 
