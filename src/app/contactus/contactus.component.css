@@ -111,6 +111,12 @@ textarea {
     margin: -3% 0;
 }
 
+.ellipse {
+    height: 80px;
+    width: 50px;
+    margin-bottom: -45px;
+}
+
 @media screen and (max-width: 1200px) {
     .contactSSImg img {
         margin: -50% 0 0 3%;

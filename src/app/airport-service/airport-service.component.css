@@ -28,6 +28,13 @@
     padding: 2% 10%;
 }
 
+.ellipse {
+    height: 80px;
+    width: 50px;
+    margin-top: -40px;
+    float: right;
+}
+
 @media screen and (max-width:991px) {    
     .ftsText{
         font-size: 0.9rem; 

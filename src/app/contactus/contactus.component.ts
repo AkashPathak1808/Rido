@@ -8,4 +8,5 @@ import { Component } from '@angular/core';
 export class ContactusComponent {
   img1= "assets/ContactUs/Contact1.svg";
   img2= "assets/ContactUs/Contact2.svg";
+  img3= "assets/ContactUs/Ellipse.png";
 }

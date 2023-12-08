@@ -11,4 +11,5 @@ export class RidesComponent {
   RideIcon3 = "assets/Ride(Landing Page)/rideIcon3.svg";
   
   RideImg1 = "assets/Ride(Landing Page)/rideImg1.svg";
+  img = "assets/Ride(Landing Page)/Ellipse.png";
 }

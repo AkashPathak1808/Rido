@@ -11,4 +11,6 @@ export class AirportServiceComponent {
   AirportIcon3 = "assets/Airport/airportIcon3.svg";
 
   AirportImg1 = "assets/Airport/airportImg1.svg";
+
+  img = "assets/Ride(Landing Page)/Ellipse.png";
 }

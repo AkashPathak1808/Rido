@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./upper-footer.component.css']
 })
 export class UpperFooterComponent {
-
   imagepath5="assets/ride-with-us-images/phone.png";
+  elipse="assets/ride-with-us-images/Ellipse.png";
 }

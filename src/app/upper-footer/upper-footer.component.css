@@ -48,6 +48,12 @@
   margin: 16% 0;
 }
 
+.ellipse {
+  height: 80px;
+  width: 50px;
+  margin-bottom: -170px;
+}
+
 
 @media screen and (max-width: 992px) {
   .sliderImg {
@@ -73,6 +79,10 @@
 
   .upperfooterheading2 p{
     font-size: 0.8rem;
+  }
+
+  .ellipse {
+    margin-bottom: -120px;
   }
 
 }
@@ -103,7 +113,18 @@
   }
 
   .scrlBtn {
-    margin: 47% 0;
+    margin: 55% 0;
+  }
+
+  .ellipse {
+    margin-bottom: -80px;
+  }
+
+}
+
+@media screen and (min-width: 1400px) {
+  .ellipse {
+    margin-bottom: -225px;
   }
 
 }

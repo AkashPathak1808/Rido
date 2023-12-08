@@ -11,4 +11,6 @@ export class HourlyRentalsComponent {
   RentalIcon3 = "assets/HourlyRentals/rentalIcon3.svg";
 
   RentalImg1 = "assets/HourlyRentals/rentalImg1.svg";
+
+  img = "assets/Ride(Landing Page)/Ellipse.png";
 }
