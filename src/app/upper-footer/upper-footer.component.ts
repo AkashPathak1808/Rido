@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class UpperFooterComponent {
 
-  imagepath5="assets/ride-with-us-images/9022843 1.svg";
+  imagepath5="assets/ride-with-us-images/phone.png";
 }
