@@ -1,0 +1,98 @@
+* {
+    font-family: Comfortaa;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 700;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: black;
+}
+
+footer {
+    background-color: rgba(134, 218, 126, 0.66);
+}
+
+.row1 {
+    border-bottom: 2px solid black;
+}
+
+.head {
+    margin: 5% 0;
+}
+
+.head h1 {
+    font-size: 2.5rem;
+}
+
+.head span {
+    color: #fff;
+}
+
+.head h6 {
+    font-size: 1.5rem;
+}
+
+.links, .contact {
+    margin: 5% 0;
+}
+
+.headImg img {
+    margin: 5% 0;
+    padding: 0 3%;
+}
+
+.linkHead {
+    border-bottom: 2px solid black;
+    margin: 0 25% 5%;
+    font-size: 1.5rem;
+}
+
+.link {
+    font-size: 1.2rem;
+    padding: 2% 0;
+}
+
+.link a {
+    text-decoration: none;
+}
+
+.eclImg {
+    position: absolute;
+    right: 0;
+    /* bottom: -5%; */
+    margin-top: -70px;
+
+}
+
+.ecli {
+    height: 70px;
+    width: 70px;
+}
+
+@media screen and (max-width: 992px) {
+    .head h1 {
+        font-size: 2rem;
+        margin: 8% 0;
+    }
+
+    .linkHead {
+        font-size: 1.2rem;
+    }
+
+    .link {
+        font-size: 1rem;
+        padding: 1% 0;
+    }
+
+    .ecli {
+        float: right;
+        margin-top: -7.5%;
+    }
+}
+
+
+@media screen and (max-width: 768px) and (min-width: 577px) {
+    .row1 {
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        padding: 5% 25%;
+    }
+}
