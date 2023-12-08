@@ -84,8 +84,8 @@
     font-size: 3rem;
     color: #FFFFFF;
     font-weight: bold;
-    padding: 0 10%;
-    margin: 6% auto;
+    padding: 0 11%;
+    margin: 6% 0;
 }
 
 span {
@@ -174,17 +174,18 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
     margin-bottom: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 button {
     background-color: #1e98e9;
     color: #000000;
     padding: 10px 15px;
-    border: none;
     font-weight: 600;
-    border-radius: 4px;
     font-size: 16px;
-    margin-left: 18em;
+    float: right;
+    border: 1px solid #000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .review-text {
