@@ -1,23 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Inter&family=Poppins:wght@300&family=Roboto:wght@300&display=swap");
 
-.bckground {
-  background-color: #63abf9;
-  height: 550px;
-}
-.text {  
-  color: #fff;
-  font-size: 3.5rem;
-  margin-top:9%;
+* {
   font-family: "Comfortaa";
   font-weight: 700;
-line-height: normal;
+  line-height: normal;
 }
- button {
+
+.bck1 {
+  background-color: #63abf9;
+}
+.text {
+  color: #fff;
+  font-size: 3.5rem;
+  margin-top: 9%;
+ 
+}
+button {
   color: #000;
-  font-family: Comfortaa;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   text-align: center;
- background-color: white;
+  background-color: white;
   padding: 3% 12%;
   border-radius: 50px 50px 50px 0px;
   margin-top: 10%;
@@ -25,42 +27,108 @@ line-height: normal;
 img {
   margin-top: -20%;
 }
-.bckgroundd {
-  background-color: #8817EE;
-  height: 720px;
+.bck2 {
+  background-color: #8817ee;
 }
-.col img
-{
-  margin-top: 19%;
-  width: 570px;
-  height: 560px;
+.col-md-6 .imgpath2 {
+  margin-top: 5%;
+  width: 500px;
+  height: 500px;
+  
 }
-.coll
-{
+.coll h1{
   color: white;
-text-align: center;
-font-family: Comfortaa;
-font-size: 3.5rem;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin-top: 11%;
+  margin: 15% 0% 0%;
+  font-size: 3rem;
 }
-.coll p{
-  color: #FFF;
-font-family: Comfortaa;
-font-size: 1.8rem;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin-left: 64px;
-text-align: left;
+
+.coll p {
+  color: #fff;
+  font-size: 1.7rem;
+  padding: 4% 20%;
+  /* margin-left: 64px;
+  text-align: left; */
 }
-.clr
-{
+.clr {
   color: #000;
 }
 
-.bckgrounddd{
-  background-color: #63ABF9;
+.bck3 {
+  background-color: #63abf9;
+}
+
+.textt {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 7%;
+  margin-bottom: 15%;
+}
+
+.texttt {
+  color: #000;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 3.7%;
+  padding-bottom: 5%;
+}
+
+.col .text3 {
+  color: #000;
+  font-size: 2rem;
+}
+
+.col .text4 {
+  color: #000;
+  font-size: 2rem;
+  font-weight: 700;
+   line-height: 1.5rem;
+  margin-bottom: 2%;
+  margin-top: -1.5%;
+}
+
+.col img {
+  padding: 2.5%;
+}
+
+@media screen and (max-width: 992px) {
+  .text {
+    font-size: 2rem;
+  }
+
+  button {
+    font-size: 1.2rem;
+  }
+
+  .coll h1{
+    font-size: 2rem;
+  }
+
+  .coll p {
+    font-size: 1.3rem;
+    padding: 4% 10%;
+  }
+
+  .textt {
+    font-size: 2rem;
+  }
+  
+  .texttt {
+    font-size: 1.2rem;
+  }
+
+  
+.col .text3 {
+  font-size: 1.5rem;
+}
+
+.col .text4 {
+  font-size: 1.2rem;
+}
+.col-md-6 .imgpath2 {
+  /* margin-top: 5%; */
+  width: 300px;
+  height: 300px;
+}
 }

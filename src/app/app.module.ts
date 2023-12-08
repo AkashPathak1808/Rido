@@ -8,6 +8,7 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
 import { RideWithUsComponent } from './ride-with-us/ride-with-us.component';
 import { DriveWithUsComponent } from './drive-with-us/drive-with-us.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { UpperFooterComponent } from './upper-footer/upper-footer.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,7 +16,8 @@ import { AboutUsComponent } from './about-us/about-us.component';
     LandingPageComponent,
     RideWithUsComponent,
     DriveWithUsComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    UpperFooterComponent
   ],
   imports: [
     BrowserModule,

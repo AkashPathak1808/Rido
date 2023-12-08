@@ -6,7 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./ride-with-us.component.css']
 })
 export class RideWithUsComponent {
- imagepath="assets/ride-with-us-images/City driver-rafiki 1.svg";
- imagepathh="assets/ride-with-us-images/12704384_5030023 1.svg";
- imagepathhh="assets/ride-with-us-images/Electric car-rafiki 1 (1).svg";
+ imagepath1="assets/ride-with-us-images/City driver-rafiki 1.svg";
+ imagepath2="assets/ride-with-us-images/12704384_5030023 1.svg";
+ imagepath4="assets/ride-with-us-images/Car.svg";
+ imagepath3="assets/ride-with-us-images/Bike.svg";
 }

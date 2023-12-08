@@ -1,0 +1,22 @@
+
+  .slider {
+    /* background-color: #8817EE; */
+    background-image: linear-gradient(#8817EE 60%, #8FB9F9 40%);
+  }
+  .sliderImg {
+    width: 500px;
+    height: 500px;
+  }
+.upperfooterheading{
+  margin-top: 25%;
+}
+.upperfooterheading2{
+  margin-top: 25%;
+}
+@media screen and (max-width: 992px) {
+  .sliderImg {
+    height: 320px;
+    width: 300px;
+    font-size: 2rem;
+  }
+}
