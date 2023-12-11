@@ -20,7 +20,7 @@ body {
 
 @keyframes textAnimation {
   from {
-    transform: translateY(-40px) ;
+    transform: translateY(-100px) ;
   }
   to {
     transform: translateY(0);
@@ -72,10 +72,10 @@ body {
 
 @keyframes moveAnimation {
   from {
-    transform: translateY(-40px) ;
+    transform: translateX(-40px) ;
   }
   to {
-    transform: translateY(0);
+    transform: translateX(0);
   }
 }
 
@@ -85,7 +85,7 @@ body {
 
 @keyframes driverAnimation {
   from {
-    transform: translateY(40px);
+    transform: translateX(-100px);
   }
   to {
     transform: translateX(0);
@@ -393,3 +393,4 @@ body {
     align-items: center;
   }
 }
+

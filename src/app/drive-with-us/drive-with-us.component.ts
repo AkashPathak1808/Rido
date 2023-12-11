@@ -24,4 +24,8 @@ export class DriveWithUsComponent {
   keepdistance = 'assets/DriveWithUsImg/keepdistance.svg';
   handsanitizer = 'assets/DriveWithUsImg/handsanitizer.svg';
   EllipseImg = 'assets/DriveWithUsImg/EllipseImg.svg';
+
+  
 }
+
+
