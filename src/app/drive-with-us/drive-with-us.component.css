@@ -14,6 +14,20 @@ body {
   padding: 6% 0;
 }
 
+.driverTxt{
+  animation: textAnimation 0.75s;
+}
+
+@keyframes textAnimation {
+  from {
+    transform: translateY(-40px) ;
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+
 .driverTxt p {
   position: relative;
   color: white;
@@ -25,6 +39,21 @@ body {
 }
 
 .driverTxt span {
+  color: black;
+  font-weight: 700;
+}
+
+.driverTxt1 p {
+  position: relative;
+  color: white;
+  font-size: 3rem;
+  margin: 8% 0;
+  line-height: normal;
+  text-align: center;
+  font-weight: 700;
+}
+
+.driverTxt1 span {
   color: black;
   font-weight: 700;
 }
@@ -43,10 +72,10 @@ body {
 
 @keyframes moveAnimation {
   from {
-    transform: translateY(-50px) translateX(0);
+    transform: translateY(-40px) ;
   }
   to {
-    transform: translateY(0) translateX(50px);
+    transform: translateY(0);
   }
 }
 
@@ -56,10 +85,10 @@ body {
 
 @keyframes driverAnimation {
   from {
-    transform: translateY(10px);
+    transform: translateY(40px);
   }
   to {
-    transform: translateX(10px);
+    transform: translateX(0);
   }
 }
 
