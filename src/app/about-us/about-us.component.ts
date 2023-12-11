@@ -6,7 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./about-us.component.css']
 })
 export class AboutUsComponent {
-
   imagepath="assets/aboutUsImg/image1.svg";;
   imagepath1="assets/aboutUsImg/image2.svg";
   imagepath3="assets/aboutUsImg/image4.png";

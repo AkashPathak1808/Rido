@@ -1,15 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap");
 
 * {
-  font-family: Comfortaa;
-  font-style: normal;
-  line-height: normal;
-  font-weight: 700;
+    font-family: Comfortaa;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 700;
 }
 
-.faqFS {    
+.faqFS {
     background-color: #63abf9;
-    /* background-color: aliceblue; */
 }
 
 .fsText {
@@ -27,14 +26,14 @@
     color: black;
 }
 
-.fsText p{
+.fsText p {
     margin: 4% 5% 0 0;
     font-weight: 400;
     color: #FFF;
     font-size: 1.1rem;
 }
 
-.fsImg img{
+.fsImg img {
     height: 500px;
     width: 500px;
     margin-top: -5%;
@@ -72,20 +71,45 @@
     margin-bottom: -40px;
 }
 
+.fsText h3, .fsText h2, .line, .fsText p {
+    animation: textAnimation 0.75s;
+}
+
+@keyframes textAnimation {
+    from {
+        transform: translateY(-40px) translateX(0);
+    }
+
+    to {
+        transform: translateY(0) translateX(0);
+    }
+}
+
+.fsImg {
+    animation: imgAnimation 0.75s;
+}
+
+@keyframes imgAnimation {
+    from {
+        transform: translateY(40px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
 @media screen and (max-width: 992px) {
     .fsText h3 {
         font-size: 2rem;
     }
-    
+
     .fsText h2 {
         font-size: 1.5rem;
-    }   
-    .fsImg img{
+    }
+
+    .fsImg img {
         height: 300px;
         width: 300px;
     }
 }
-
-
-
-

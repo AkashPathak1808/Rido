@@ -10,6 +10,8 @@ export class AppComponent {
   title = 'Rido_Code';
 
   ngOnInit(){
-    AOS.init();
+    AOS.init({
+      duration: 1000
+    });
   }
 }
