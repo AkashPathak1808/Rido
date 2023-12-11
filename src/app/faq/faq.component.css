@@ -24,12 +24,14 @@
 .fsText h2 {
     color: #FFF;
     font-size: 2.5rem;
+    color: black;
 }
 
 .fsText p{
     margin: 4% 5% 0 0;
     font-weight: 400;
     color: #FFF;
+    font-size: 1.1rem;
 }
 
 .fsImg img{
