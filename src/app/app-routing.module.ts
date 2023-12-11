@@ -10,6 +10,7 @@ import { AirportServiceComponent } from './airport-service/airport-service.compo
 import { ContactusComponent } from './contactus/contactus.component';
 import { RidoBusinessComponent } from './rido-business/rido-business.component';
 import { TermsandconditionsComponent } from './termsandconditions/termsandconditions.component';
+import { FaqComponent } from './faq/faq.component';
 
 const routes: Routes = [
   {path: '', redirectTo: 'home', pathMatch: 'full'},
@@ -24,6 +25,7 @@ const routes: Routes = [
 
   {path: 'rido-business', component: RidoBusinessComponent},
   {path: 'terms-and-conditions', component: TermsandconditionsComponent},
+  {path: 'faq', component: FaqComponent},
 
   {path: '**', redirectTo: 'home'},
 ];

@@ -18,6 +18,7 @@ import { RidoBusinessComponent } from './rido-business/rido-business.component';
 import { FooterComponent } from './footer/footer.component';
 import { TermsandconditionsComponent } from './termsandconditions/termsandconditions.component';
 import { ContactusComponent } from './contactus/contactus.component';
+import { FaqComponent } from './faq/faq.component';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { ContactusComponent } from './contactus/contactus.component';
     RidoBusinessComponent,
     FooterComponent,
     TermsandconditionsComponent,
-    ContactusComponent
+    ContactusComponent,
+    FaqComponent
 
   ],
   imports: [
