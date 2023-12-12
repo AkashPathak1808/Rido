@@ -72,7 +72,7 @@ body {
 
 @keyframes moveAnimation {
   from {
-    transform: translateX(-40px) ;
+    transform: translateX(-70px) ;
   }
   to {
     transform: translateX(0);
@@ -235,7 +235,11 @@ body {
 
 
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 992px) {
+  .driverTxt1 p {
+    font-size: 2rem;
+  }
+
   .driverTxt p {
     font-size: 2rem;
   }
@@ -330,6 +334,7 @@ body {
     height: 100px;
     margin: 0% 0;
   }
+
 }
 
 @media screen and (max-width: 550px) {

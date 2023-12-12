@@ -9,6 +9,7 @@ body {
 }
 
 /* Driver section */
+
 .driver {
   background-color: #63abf9;
   padding: 6% 0;
@@ -23,18 +24,7 @@ body {
   font-weight: 700;
 }
 
-.driverTxt{
-  animation: textAnimation 0.75s;
-}
 
-@keyframes textAnimation {
-  from {
-    transform: translateY(-40px) ;
-  }
-  to {
-    transform: translateY(0);
-  }
-}
 
 .driverTxt span {
   color: black;
@@ -66,29 +56,7 @@ body {
   border-radius: 50px 50px 50px 0px;
   font-weight: 700;
 
-  animation:ridoAnimation  0.75s;
-}
-
-@keyframes ridoAnimation {
-  from {
-    transform: translateY(-40px) ;
-  }
-  to {
-    transform: translateY(0);
-  }
-}
-
-.driverImg {
-  animation: driveAnimation 0.75s;
-}
-
-@keyframes driveAnimation {
-  from {
-    transform: translateY(40px);
-  }
-  to {
-    transform: translateX(0);
-  }
+ 
 }
 
 .ellipse1 {
@@ -242,6 +210,10 @@ body {
 
 @media screen and (max-width: 991px) {
   .driverTxt p {
+    font-size: 2rem;
+  }
+
+  .driverTxt1 p {
     font-size: 2rem;
   }
 
