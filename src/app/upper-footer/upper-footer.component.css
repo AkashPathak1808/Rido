@@ -49,6 +49,7 @@
 }
 
 
+
 @media screen and (max-width: 992px) {
   .sliderImg {
     width: 300px;
@@ -105,5 +106,4 @@
   .scrlBtn {
     margin: 47% 0;
   }
-
 }
