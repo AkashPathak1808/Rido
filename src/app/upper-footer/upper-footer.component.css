@@ -55,6 +55,7 @@
 }
 
 
+
 @media screen and (max-width: 992px) {
   .sliderImg {
     width: 320px;
@@ -126,5 +127,4 @@
   .ellipse {
     margin-bottom: -225px;
   }
-
 }
