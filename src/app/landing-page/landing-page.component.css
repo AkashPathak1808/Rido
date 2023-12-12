@@ -201,7 +201,7 @@ a.act {
 }
 
 .fsText, .btn {
-  animation: textAnimation 0.75s;
+  animation: textAnimation 1s;
 }
 
 @keyframes textAnimation {
@@ -215,7 +215,7 @@ a.act {
 }
 
 .fsImg {
-  animation: imgAnimation 0.75s;
+  animation: imgAnimation 1s;
 }
 
 @keyframes imgAnimation {

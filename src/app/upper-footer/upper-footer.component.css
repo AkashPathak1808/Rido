@@ -13,8 +13,8 @@
   padding: 7% 0;
 }
 
-.sliderImg {
-  width: 500px;
+.sliderImg{
+  width: 600px;
   height: 400px;
 }
 
@@ -57,8 +57,8 @@
 
 @media screen and (max-width: 992px) {
   .sliderImg {
-    width: 300px;
-    height: 300px;
+    width: 320px;
+    height: 320px;
   }
 
   .upperfooterheading h1 {
@@ -70,11 +70,11 @@
   }
 
   .upperfooterheading {
-    margin-top: 28%;
+    margin-top: 30%;
   }
 
   .upperfooterheading2 {
-    margin-top: 28%;
+    margin-top: 30%;
   }
 
   .upperfooterheading2 p{
@@ -89,11 +89,11 @@
 
 @media screen and (max-width: 768px) {
   .upperfooterheading {
-    margin-top: 37%;
+    margin-top: 40%;
   }
 
   .upperfooterheading2 {
-    margin-top: 37%;
+    margin-top: 40%;
   }
 
   .scrlBtn {

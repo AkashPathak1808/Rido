@@ -31,7 +31,7 @@
 
 .img1 {
     margin: 2% 0 10%;
-    width: 530px;
+    width: 525px;
 }
 
 /* part-2 */
@@ -213,7 +213,7 @@ button {
 }
 
 .ride h2, .ride h3{
-    animation: textAnimation 0.75s;
+    animation: textAnimation 1s;
 }
 
 @keyframes textAnimation {
@@ -227,7 +227,7 @@ button {
 }
 
 .img1 {
-    animation: imgAnimation 0.75s;
+    animation: imgAnimation 1s;
 }
 
 @keyframes imgAnimation {
