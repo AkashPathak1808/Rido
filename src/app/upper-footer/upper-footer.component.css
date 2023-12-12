@@ -13,8 +13,8 @@
   padding: 7% 0;
 }
 
-.sliderImg {
-  width: 500px;
+.sliderImg{
+  width: 600px;
   height: 400px;
 }
 
@@ -48,12 +48,18 @@
   margin: 16% 0;
 }
 
+.ellipse {
+  height: 80px;
+  width: 50px;
+  margin-bottom: -170px;
+}
+
 
 
 @media screen and (max-width: 992px) {
   .sliderImg {
-    width: 300px;
-    height: 300px;
+    width: 320px;
+    height: 320px;
   }
 
   .upperfooterheading h1 {
@@ -65,26 +71,30 @@
   }
 
   .upperfooterheading {
-    margin-top: 28%;
+    margin-top: 30%;
   }
 
   .upperfooterheading2 {
-    margin-top: 28%;
+    margin-top: 30%;
   }
 
   .upperfooterheading2 p{
     font-size: 0.8rem;
   }
 
+  .ellipse {
+    margin-bottom: -120px;
+  }
+
 }
 
 @media screen and (max-width: 768px) {
   .upperfooterheading {
-    margin-top: 37%;
+    margin-top: 40%;
   }
 
   .upperfooterheading2 {
-    margin-top: 37%;
+    margin-top: 40%;
   }
 
   .scrlBtn {
@@ -104,6 +114,17 @@
   }
 
   .scrlBtn {
-    margin: 47% 0;
+    margin: 55% 0;
+  }
+
+  .ellipse {
+    margin-bottom: -80px;
+  }
+
+}
+
+@media screen and (min-width: 1400px) {
+  .ellipse {
+    margin-bottom: -225px;
   }
 }

@@ -28,6 +28,10 @@
     padding: 2% 10%;
 }
 
+.ftsImg {
+    margin-bottom: 5%;
+}
+
 
 .lftsLink {
     padding: 5% 3% 3%;
@@ -49,6 +53,14 @@ a.act {
     color: black;
     border-bottom: 10px solid black;
 }
+
+.ellipse {
+    height: 80px;
+    width: 50px;
+    margin-top: -40px;
+    float: right;
+}
+
 
 @media screen and (max-width:991px) {    
     .ftsText{

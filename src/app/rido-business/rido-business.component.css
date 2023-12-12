@@ -23,10 +23,39 @@ body {
   font-weight: 700;
 }
 
+.driverTxt{
+  animation: textAnimation 0.75s;
+}
+
+@keyframes textAnimation {
+  from {
+    transform: translateY(-40px) ;
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
 .driverTxt span {
   color: black;
   font-weight: 700;
 }
+
+.driverTxt1 p {
+  position: relative;
+  color: white;
+  font-size: 3rem;
+  margin: 8% 0;
+  line-height: normal;
+  text-align: center;
+  font-weight: 700;
+}
+
+.driverTxt1 span {
+  color: black;
+  font-weight: 700;
+}
+
 
 .driverBtn {
   font-size: 1.8rem;
@@ -36,6 +65,30 @@ body {
   margin: 0 auto;
   border-radius: 50px 50px 50px 0px;
   font-weight: 700;
+
+  animation:ridoAnimation  0.75s;
+}
+
+@keyframes ridoAnimation {
+  from {
+    transform: translateY(-40px) ;
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.driverImg {
+  animation: driveAnimation 0.75s;
+}
+
+@keyframes driveAnimation {
+  from {
+    transform: translateY(40px);
+  }
+  to {
+    transform: translateX(0);
+  }
 }
 
 .ellipse1 {

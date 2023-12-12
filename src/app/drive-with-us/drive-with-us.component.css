@@ -2,6 +2,7 @@
 
 * {
   font-family: Comfortaa;
+  scroll-behavior: smooth;
 }
 body {
   font-weight: 700;
@@ -13,7 +14,22 @@ body {
   padding: 6% 0;
 }
 
+.driverTxt{
+  animation: textAnimation 0.75s;
+}
+
+@keyframes textAnimation {
+  from {
+    transform: translateY(-100px) ;
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+
 .driverTxt p {
+  position: relative;
   color: white;
   font-size: 3rem;
   margin: 8% 0;
@@ -27,6 +43,21 @@ body {
   font-weight: 700;
 }
 
+.driverTxt1 p {
+  position: relative;
+  color: white;
+  font-size: 3rem;
+  margin: 8% 0;
+  line-height: normal;
+  text-align: center;
+  font-weight: 700;
+}
+
+.driverTxt1 span {
+  color: black;
+  font-weight: 700;
+}
+
 .driverBtn {
   font-size: 1.8rem;
   font-weight: 500;
@@ -35,6 +66,30 @@ body {
   padding: 3% 12%;
   margin: 0 auto;
   border-radius: 50px 50px 50px 0px;
+
+  animation: moveAnimation 0.75s;
+}
+
+@keyframes moveAnimation {
+  from {
+    transform: translateX(-40px) ;
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.driverImg {
+  animation: driverAnimation 0.75s;
+}
+
+@keyframes driverAnimation {
+  from {
+    transform: translateX(-100px);
+  }
+  to {
+    transform: translateX(0);
+  }
 }
 
 .ellipse1 {
@@ -69,11 +124,12 @@ body {
   height: 100px;
   background-color: #d9d9d9;
   border-radius: 0 12rem 12rem 0;
-  margin: 0% 0;
+  margin: 1% 0;
 }
 
 .border {
-  background-color: black;
+  background: #D9D9D9;
+  height: 40px;
 }
 
 /* Document Section */
@@ -86,7 +142,6 @@ body {
   color: white;
   font-size: 1.2rem;
   font-weight: 900;
-  
 }
 
 .docLine p {
@@ -150,7 +205,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
 }
 
 .syring {
@@ -178,6 +232,8 @@ body {
   font-weight: 700;
   width: 12.5rem;
 }
+
+
 
 @media screen and (max-width: 991px) {
   .driverTxt p {
@@ -215,7 +271,7 @@ body {
   }
 
   .ellipse1 {
-    fill: #D9D9D9;
+    fill: #d9d9d9;
     width: 50px;
     height: 100px;
     margin: 0% 0;
@@ -226,7 +282,7 @@ body {
   }
 
   .ellipse2 {
-    fill: #D9D9D9;
+    fill: #d9d9d9;
     position: absolute;
     width: 50px;
     height: 100px;
@@ -238,7 +294,7 @@ body {
   }
 
   .ellipse3 {
-    fill: #D9D9D9;
+    fill: #d9d9d9;
     position: absolute;
     width: 50px;
     height: 100px;
@@ -337,3 +393,4 @@ body {
     align-items: center;
   }
 }
+

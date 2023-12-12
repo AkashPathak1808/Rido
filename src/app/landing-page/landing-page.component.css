@@ -13,14 +13,12 @@
 }
 
 .fsImg {
-  margin: 4% 0;
+  margin: 5% 0;
 }
 
 .fsText {
   font-size: 3.5rem;
   margin: 10% 0 0;
-  transition-property: opacity, left;
-  transition-duration: 2s, 4s;
 }
 
 .fsText span {
@@ -41,11 +39,11 @@
 }
 
 .ssImg {
-  margin: 10% 0;
+  margin: 5% 0;
 }
 
 .ssText {
-  margin: 12% 0;
+  margin: 10% 0;
 }
 
 .ssText h3 {
@@ -72,8 +70,13 @@
 }
 
 .tsImg {
-  /* width: 550px; */
   margin: 5% 0;
+}
+
+.tsImg img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .tsText h3 {
@@ -102,7 +105,7 @@
 }
 
 .fosText {
-  margin: 15% 0;
+  margin: 10% 0;
 }
 
 .fosText h3 {
@@ -182,7 +185,7 @@ a.act {
   border-radius: 12rem 0 0 12rem;
   background-color: #d9d9d9;
   float: right;
-  margin: -3% 0;
+  margin: -4% 0;
 }
 
 .elc21 {
@@ -195,6 +198,34 @@ a.act {
   border-radius: 0 12rem 12rem 0;
   background-color: #d9d9d9;
   margin: -3% 0;
+}
+
+.fsText, .btn {
+  animation: textAnimation 1s;
+}
+
+@keyframes textAnimation {
+  from {
+    transform: translateY(-40px) translateX(0);
+  }
+
+  to {
+    transform: translateY(0) translateX(0);
+  }
+}
+
+.fsImg {
+  animation: imgAnimation 1s;
+}
+
+@keyframes imgAnimation {
+  from {
+    transform: translateX(50px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -216,6 +247,10 @@ a.act {
     font-size: 1rem;
   }
 
+  .ssImg{
+    margin: 10% 0 5%;
+  }
+
   .ssText h3 {
     font-size: 2rem;
   }
@@ -234,6 +269,10 @@ a.act {
 
   .tsText h3 {
     font-size: 2rem;
+  }
+
+  .tsImg img {
+    width: 320px;
   }
 
   .tsTextPara {

@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class LandingPageComponent {
   imgPath1 = "assets/Landing_Img/landing1.svg";
   imgPath2 = "assets/Landing_Img/landing2.svg";
-  imgPath3 = "assets/Landing_Img/landing3.svg";
+  imgPath3 = "assets/Landing_Img/Electric.gif";
   imgPath4 = "assets/Landing_Img/landing4.gif";
   line = "assets/Landing_Img/line.svg";
   vector = "assets/Landing_Img/Vector.svg";

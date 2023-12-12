@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap");
+
+* {
+    font-family: Comfortaa;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 700;
+}
+
+.faqFS {
+    background-color: #63abf9;
+}
+
+.fsText {
+    margin: 8% 0;
+}
+
+.fsText h3 {
+    color: #FFF;
+    font-size: 3rem;
+}
+
+.fsText h2 {
+    color: #FFF;
+    font-size: 2.5rem;
+    color: black;
+}
+
+.fsText p {
+    margin: 4% 5% 0 0;
+    font-weight: 400;
+    color: #FFF;
+    font-size: 1.1rem;
+}
+
+.fsImg img {
+    height: 500px;
+    width: 500px;
+    margin-top: -5%;
+}
+
+.line {
+    border: 5px solid #FFF;
+    width: 30%;
+    margin-bottom: 4%;
+}
+
+.faqSS {
+    background-color: #8817ee;
+}
+
+.ssText {
+    margin: 8% 0;
+}
+
+.collapsed {
+    font-size: 1.1rem;
+    padding: 3.5%;
+}
+
+.el1 {
+    height: 80px;
+    width: 50px;
+    float: right;
+    margin-top: -50px;
+}
+
+.el2 {
+    height: 80px;
+    width: 50px;
+    margin-bottom: -40px;
+}
+
+.fsText h3, .fsText h2, .line, .fsText p {
+    animation: textAnimation 0.75s;
+}
+
+@keyframes textAnimation {
+    from {
+        transform: translateY(-40px) translateX(0);
+    }
+
+    to {
+        transform: translateY(0) translateX(0);
+    }
+}
+
+.fsImg {
+    animation: imgAnimation 0.75s;
+}
+
+@keyframes imgAnimation {
+    from {
+        transform: translateY(40px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .fsText h3 {
+        font-size: 2rem;
+    }
+
+    .fsText h2 {
+        font-size: 1.5rem;
+    }
+
+    .fsImg img {
+        height: 300px;
+        width: 300px;
+    }
+}
